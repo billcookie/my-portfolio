@@ -50,11 +50,20 @@ export const testimonials = [
   },
 ];
 
-export const skills = [
+export const languages = [
   "JavaScript",
+  "Ruby",
+  "SASS",
+  "HTML 5",
+  "CSS 3",
+  "PostgreSQL",
+];
+
+export const frameworks = [
   "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "Rails",
+  "Bootstrap",
+  "Sass",
+  "Github",
+  "Material",
 ];
