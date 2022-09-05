@@ -3,7 +3,7 @@ export const projects = [
     title: "toFuture",
     subtitle: "MERN Stack",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "An app built in 10 days that allows users to find sustainble investment and support opportunities through a community platform.",
     image: "./project-1.gif",
     link: "https://tofuture.herokuapp.com",
   },
@@ -11,7 +11,7 @@ export const projects = [
     title: "Tokyo Vinyls",
     subtitle: "React and Python",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "An airbnb clone web application built in five days.",
     image: "./project-2.gif",
     link: "https://tokyo-vinyls.herokuapp.com",
   },
@@ -48,22 +48,4 @@ export const testimonials = [
     name: "Ruben Alvarez",
     company: "Dooble.io",
   },
-];
-
-export const languages = [
-  "JavaScript",
-  "Ruby",
-  "SASS",
-  "HTML 5",
-  "CSS 3",
-  "PostgreSQL",
-];
-
-export const frameworks = [
-  "React",
-  "Rails",
-  "Bootstrap",
-  "Sass",
-  "Github",
-  "Material",
 ];

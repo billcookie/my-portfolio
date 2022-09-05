@@ -6,12 +6,14 @@ export default function Skills() {
   return (
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-15">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-3">
-            Skills &amp; Technologies
-          </h1>
+        <div data-aos="fade-down" data-aos-duration="2000">
+          <div className="text-center mb-15">
+            <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-3">
+              Skills &amp; Technologies
+            </h1>
+          </div>
         </div>
-        <FadeIn>
+        <div data-aos="fade-right" data-aos-duration="2000">
         <div className="flex justify-center lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
             <div className="p-2 sm:w-1/6">
               <div className="text-6xl flex p-4 items-center">
@@ -39,8 +41,9 @@ export default function Skills() {
               </div>
             </div>
         </div>
-        </FadeIn>
+      </div>
 
+      <div data-aos="fade-left" data-aos-duration="2000">
         <div className="flex justify-center lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
             <div className="p-2 sm:w-1/2 w-full">
               <div className="text-6xl flex p-2 h-full items-center">
@@ -84,6 +87,9 @@ export default function Skills() {
             </div>
         </div>
       </div>
+
+      </div>
+
     </section>
   );
 }
