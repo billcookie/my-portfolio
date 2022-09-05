@@ -1,35 +1,35 @@
 export const projects = [
   {
-    title: "React Reserve",
+    title: "toFuture",
     subtitle: "MERN Stack",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://tofuture.herokuapp.com",
   },
   {
-    title: "React Tracks",
+    title: "Tokyo Vinyls",
     subtitle: "React and Python",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://tokyo-vinyls.herokuapp.com",
   },
   {
-    title: "DevChat",
+    title: "Slack Clone",
     subtitle: "React and Firebase",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+    link: "http://billcook.me/react-star-wars-slack-clone",
   },
   {
-    title: "Epic Todo App",
+    title: "Super Battle Knight",
     subtitle: "React Hooks",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+    link: "https://super-battle-knight.herokuapp.com",
   },
 ];
 
