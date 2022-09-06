@@ -6,7 +6,7 @@ export default function Contact() {
       <div data-aos="fade-down" data-aos-duration="2000">
         <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap justify-center">
 
-          <i class="fa-solid fa-paper-plane text-6xl flex p-4 items-center"></i>
+          {/* <i class="fa-solid fa-paper-plane text-6xl flex p-4 items-center"></i> */}
           <form
             netlify
             name="contact"

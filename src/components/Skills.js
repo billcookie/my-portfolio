@@ -1,6 +1,4 @@
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
-import FadeIn from 'react-fade-in';
 
 export default function Skills() {
   return (
@@ -43,21 +41,22 @@ export default function Skills() {
             <div data-aos="fade-left" data-aos-duration="2000">
               <div className="flex justify-between lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
                 <div className="p-2 sm:w-1/6">
-                  <div className="text-6xl flex p-4 h-full items-center">
-                    <i class="devicon-postgresql-plain-wordmark"></i>
-                  </div>
-                </div>
-                <div className="p-2 sm:w-1/6 w-full">
-                  <div className="text-6xl flex p-2 h-full items-center">
-                    <i class="devicon-rails-plain-wordmark"></i>
-                  </div>
-                </div>
-                <div className="p-2 sm:w-1/6 w-full">
                   <div className="text-6xl flex p-2 h-full items-center">
                     <i class="devicon-react-original-wordmark"></i>
                   </div>
                 </div>
-                <div className="p-2 sm:w-1/6 w-full">
+                <div className="p-2 sm:w-1/6">
+                  <div className="text-6xl flex p-2 h-full items-center">
+                    <i class="devicon-rails-plain-wordmark"></i>
+                  </div>
+                </div>
+                <div className="p-2 sm:w-1/6">
+                  <div className="text-6xl flex p-4 h-full items-center">
+                    <i class="devicon-postgresql-plain-wordmark"></i>
+                  </div>
+                </div>
+
+                <div className="p-2 sm:w-1/6">
                   <div className="text-6xl flex p-4 h-full items-center">
                     <i class="devicon-bootstrap-plain-wordmark"></i>
                   </div>
@@ -67,22 +66,22 @@ export default function Skills() {
             <div>
               <div data-aos="fade-right" data-aos-duration="2000">
                 <div className="flex justify-between lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-                  <div className="p-2 sm:w-1/6 w-full">
+                  <div className="p-2 sm:w-1/6">
                     <div className="text-6xl flex p-4 h-full items-center">
                       <i class="devicon-sass-original"></i>
                     </div>
                   </div>
-                  <div className="p-2 sm:w-1/6 w-full">
+                  <div className="p-2 sm:w-1/6">
                     <div className="text-6xl flex p-4 h-full items-center">
                       <i class="devicon-tailwindcss-plain"></i>
                     </div>
                   </div>
-                  <div className="p-2 sm:w-1/6 w-full">
+                  <div className="p-2 sm:w-1/6">
                     <div className="text-6xl flex p-4 h-full items-center">
                       <i class="devicon-github-original-wordmark"></i>
                     </div>
                   </div>
-                  <div className="p-2 sm:w-1/6 w-full">
+                  <div className="p-2 sm:w-1/6">
                     <div className="text-6xl flex p-4 h-full items-center">
                       <i class="devicon-git-plain-wordmark"></i>
                     </div>
@@ -90,7 +89,6 @@ export default function Skills() {
                 </div>
               </div>
             </div>
-
             <div>
               <div data-aos="fade-left" data-aos-duration="2000">
                 <div className="flex justify-between lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

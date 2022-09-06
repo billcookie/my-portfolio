@@ -10,6 +10,12 @@ export default function About() {
               {/* <br className="hidden lg:inline-block" />I love to build amazing
             apps. */}
             </h1>
+            <h2 className="title-font sm:text-3xl text-3xl mb-4 font-medium text-white">
+              I'm fullstack developer.
+            </h2>
+            <h2 className="title-font sm:text-2xl text-2xl mb-4 font-medium text-white">
+              About me
+            </h2>
             <p className="mb-8 leading-relaxed">
               I am originally from the UK <span>🇬🇧</span>, but have been living in Tokyo <span>🇯🇵</span> since 2019.
             </p>
