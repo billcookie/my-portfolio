@@ -13,88 +13,113 @@ export default function Skills() {
             </h1>
           </div>
         </div>
-        <div data-aos="fade-right" data-aos-duration="2000">
-          <div className="flex justify-center lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-            <div className="p-2 sm:w-1/6">
-              <div className="text-6xl flex p-4 items-center">
-                <i class="devicon-javascript-plain"></i>
+        <div>
+          <div data-aos="fade-right" data-aos-duration="2000">
+            <div className="flex justify-between lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+
+              <div className="p-2 sm:w-1/6">
+                <div className="text-6xl flex p-4 items-center">
+                  <i class="devicon-javascript-plain"></i>
+                </div>
+              </div>
+              <div className="p-2 sm:w-1/6">
+                <div className="text-6xl flex p-4 items-center">
+                  <i class="devicon-ruby-plain-wordmark"></i>
+                </div>
+              </div>
+              <div className="p-2 sm:w-1/6">
+                <div className="text-6xl flex p-4 h-full items-center">
+                  <i class="devicon-html5-plain-wordmark"></i>
+                </div>
+              </div>
+              <div className="p-2 sm:w-1/6">
+                <div className="text-6xl flex p-4 h-full items-center">
+                  <i class="devicon-css3-plain-wordmark"></i>
+                </div>
               </div>
             </div>
-            <div className="p-2 sm:w-1/6">
-              <div className="text-6xl flex p-4 items-center">
-                <i class="devicon-ruby-plain-wordmark"></i>
+          </div>
+          <div>
+            <div data-aos="fade-left" data-aos-duration="2000">
+              <div className="flex justify-between lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+                <div className="p-2 sm:w-1/6">
+                  <div className="text-6xl flex p-4 h-full items-center">
+                    <i class="devicon-postgresql-plain-wordmark"></i>
+                  </div>
+                </div>
+                <div className="p-2 sm:w-1/6 w-full">
+                  <div className="text-6xl flex p-2 h-full items-center">
+                    <i class="devicon-rails-plain-wordmark"></i>
+                  </div>
+                </div>
+                <div className="p-2 sm:w-1/6 w-full">
+                  <div className="text-6xl flex p-2 h-full items-center">
+                    <i class="devicon-react-original-wordmark"></i>
+                  </div>
+                </div>
+                <div className="p-2 sm:w-1/6 w-full">
+                  <div className="text-6xl flex p-4 h-full items-center">
+                    <i class="devicon-bootstrap-plain-wordmark"></i>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="p-2 sm:w-1/6">
-              <div className="text-6xl flex p-4 h-full items-center">
-                <i class="devicon-html5-plain-wordmark"></i>
+            <div>
+              <div data-aos="fade-right" data-aos-duration="2000">
+                <div className="flex justify-between lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+                  <div className="p-2 sm:w-1/6 w-full">
+                    <div className="text-6xl flex p-4 h-full items-center">
+                      <i class="devicon-sass-original"></i>
+                    </div>
+                  </div>
+                  <div className="p-2 sm:w-1/6 w-full">
+                    <div className="text-6xl flex p-4 h-full items-center">
+                      <i class="devicon-tailwindcss-plain"></i>
+                    </div>
+                  </div>
+                  <div className="p-2 sm:w-1/6 w-full">
+                    <div className="text-6xl flex p-4 h-full items-center">
+                      <i class="devicon-github-original-wordmark"></i>
+                    </div>
+                  </div>
+                  <div className="p-2 sm:w-1/6 w-full">
+                    <div className="text-6xl flex p-4 h-full items-center">
+                      <i class="devicon-git-plain-wordmark"></i>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="p-2 sm:w-1/6">
-              <div className="text-6xl flex p-4 h-full items-center">
-                <i class="devicon-css3-plain-wordmark"></i>
-              </div>
-            </div>
-            <div className="p-2 sm:w-1/6">
-              <div className="text-6xl flex p-4 h-full items-center">
-                <i class="devicon-postgresql-plain-wordmark"></i>
+
+            <div>
+              <div data-aos="fade-left" data-aos-duration="2000">
+                <div className="flex justify-between lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+                  <div className="p-2 sm:w-1/6 w-full">
+                    <div className="text-6xl flex p-4 h-full items-center">
+                      <i class="devicon-heroku-original-wordmark"></i>
+                    </div>
+                  </div>
+                  <div className="p-2 sm:w-1/6 w-full">
+                    <div className="text-6xl flex p-4 h-full items-center">
+                      <i class="devicon-figma-plain"></i>
+                    </div>
+                  </div>
+                  <div className="p-2 sm:w-1/6 w-full">
+                    <div className="text-6xl flex p-4 h-full items-center">
+                      <i class="devicon-trello-plain-wordmark"></i>
+                    </div>
+                  </div>
+                  <div className="p-2 sm:w-1/6 w-full">
+                    <div className="text-6xl flex p-4 h-full items-center">
+                      <i class="devicon-sqlite-plain-wordmark"></i>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
-        <div data-aos="fade-left" data-aos-duration="2000">
-          <div className="flex justify-center lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-            <div className="p-2 sm:w-1/2 w-full">
-              <div className="text-6xl flex p-2 h-full items-center">
-                <i class="devicon-rails-plain-wordmark"></i>
-              </div>
-            </div>
-            <div className="p-2 sm:w-1/2 w-full">
-              <div className="text-6xl flex p-2 h-full items-center">
-                <i class="devicon-react-original-wordmark"></i>
-              </div>
-            </div>
-            <div className="p-2 sm:w-1/2 w-full">
-              <div className="text-6xl flex p-4 h-full items-center">
-                <i class="devicon-bootstrap-plain-wordmark"></i>
-              </div>
-            </div>
-            <div className="p-2 sm:w-1/2 w-full">
-              <div className="text-6xl flex p-4 h-full items-center">
-                <i class="devicon-sass-original"></i>
-              </div>
-            </div>
-            <div className="p-2 sm:w-1/2 w-full">
-              <div className="text-6xl flex p-4 h-full items-center">
-                <i class="devicon-tailwindcss-plain"></i>
-              </div>
-            </div>
-            <div className="p-2 sm:w-1/2 w-full">
-              <div className="text-6xl flex p-4 h-full items-center">
-                <i class="devicon-github-original-wordmark"></i>
-              </div>
-            </div>
-            <div className="p-2 sm:w-1/2 w-full">
-              <div className="text-6xl flex p-4 h-full items-center">
-                <i class="devicon-git-plain-wordmark"></i>
-              </div>
-            </div>
-            <div className="p-2 sm:w-1/2 w-full">
-              <div className="text-6xl flex p-4 h-full items-center">
-                <i class="devicon-heroku-original-wordmark"></i>
-              </div>
-            </div>
-            <div className="p-2 sm:w-1/2 w-full">
-              <div className="text-6xl flex p-4 h-full items-center">
-                <i class="devicon-figma-plain"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
-
     </section>
   );
 }
