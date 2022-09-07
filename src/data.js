@@ -3,7 +3,7 @@ export const projects = [
     title: "toFuture",
     subtitle: "MERN Stack",
     description:
-      "An app built in 10 days that allows users to find sustainble investment and support opportunities through a community platform.",
+      "An app built in 10 days that allows users to find sustainble investment through a community platform.",
     image: "./tofuture_screenshot.png",
     repos: "https://github.com/billcookie/tofuture",
     link: "https://tofuture.herokuapp.com",
@@ -28,8 +28,7 @@ export const projects = [
   {
     title: "Super Battle Knight",
     subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    description: "An app practing N:N relationships and MVC development.",
     image: "./superbattleknight_screenshot.png",
     repos: "https://github.com/billcookie/super-battle-knight",
     link: "https://super-battle-knight.herokuapp.com",
