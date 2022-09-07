@@ -31,6 +31,9 @@ export default function Projects() {
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
+                  <a href={project.repos}><i class="devicon-github-original-wordmark text-6xl"></i>
+</a>
+
                 </div>
               </div>
             </a>
