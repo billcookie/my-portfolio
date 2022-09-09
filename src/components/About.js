@@ -17,7 +17,8 @@ export default function About() {
               About me
             </h2>
             <p className="mb-8 leading-relaxed">
-              I am originally from the UK <span>🇬🇧</span>, but currently living in Tokyo <span>🇯🇵</span>.
+              I am originally from the UK <span>🇬🇧</span>, but currently living in Tokyo <span>🇯🇵</span>. <br />I love watching rugby 🏉 and playing video games with my friends 🎮.
+
             </p>
             <div className="flex justify-center">
               <a

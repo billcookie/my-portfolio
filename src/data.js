@@ -33,4 +33,13 @@ export const projects = [
     repos: "https://github.com/billcookie/super-battle-knight",
     link: "https://super-battle-knight.herokuapp.com",
   },
+
+  // {
+  //   title: "Star Wars Meme Machine",
+  //   subtitle: "React Hooks",
+  //   description: "Allows users to type a word and produces a Star Wars gif.",
+  //   image: "./meme_screenshot.png",
+  //   repos: "https://github.com/billcookie/react-starwars-meme-machine",
+  //   link: "http://billcook.me/react-starwars-meme-machine/",
+  // },
 ];

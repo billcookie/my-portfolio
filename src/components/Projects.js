@@ -24,14 +24,13 @@ export default function Projects() {
                   src={project.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 transition delay-100 opacity-0 hover:opacity-100">
-
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
-                  <div className= "flex justify-between">
-                  <a href={project.link} className= "mt-1 bg-blue-500 w-24 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Site</a>
-                  <a href={project.repos} className= "mt-1 bg-blue-500 w-24 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Code</a>
+                  <div className="flex justify-between">
+                    <a href={project.link} className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
+                    <a href={project.repos} className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-code"></i> Code</a>
                   </div>
 
 
