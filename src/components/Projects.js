@@ -13,8 +13,8 @@ export default function Projects() {
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
-            <a
-              href={project.link}
+            <div
+
               key={project.image}
               className="sm:w-1/2 w-100 p-4">
               <div className="flex relative">
@@ -23,18 +23,21 @@ export default function Projects() {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 transition delay-100 opacity-0 hover:opacity-100">
 
                   <h1 className="title-font text-lg font-medium text-white mb-3">
                     {project.title}
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
-                  <a href={project.repos}><i class="devicon-github-original-wordmark text-6xl"></i>
-</a>
+                  <div className= "flex justify-between">
+                  <a href={project.link} className= "mt-1 bg-blue-500 w-24 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Site</a>
+                  <a href={project.repos} className= "mt-1 bg-blue-500 w-24 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Code</a>
+                  </div>
+
 
                 </div>
               </div>
-            </a>
+            </div>
           ))}
         </div>
       </div>
