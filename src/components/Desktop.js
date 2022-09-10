@@ -17,7 +17,7 @@ export default function Mobile() {
         <div data-aos="fade-right" data-aos-duration="2000">
           <div class="flex flex-wrap mt-5">
             <div class="w-full md:w-1/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
-              <img src="./tokyovinyl_screenshot.png" class=" max-w-full h-auto site-image" id="vinyl-img" alt="Tokyo Vinyl " />
+              <img src="./tokyovinyl_screenshot.png" class=" max-w-full h-auto site-image" id="vinyl-img" alt="Tokyo Vinyl" />
               <div className="flex justify-between">
                     <a href="https://tokyo-vinyls.herokuapp.com"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
                     <a href="https://github.com/billcookie/tokyo-vinyls"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-code"></i> Code</a>
@@ -49,7 +49,7 @@ export default function Mobile() {
 
 
 
-        <div class="splitter"></div>
+        <div class="splitter opacity-30"></div>
 
         <div data-aos="fade-left" data-aos-duration="2000">
           <div class="flex flex-wrap  mt-5">
@@ -73,7 +73,7 @@ export default function Mobile() {
               </div>
             </div>
             <div class="w-full md:w-1/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
-              <img src="./tofuture_screenshot.png" class=" max-w-full h-auto site-image" alt="image of gif searcher site" />
+              <img src="./tofuture_screenshot.png" class=" max-w-full h-auto site-image" alt="image of tofuture home site" />
               <div className="flex justify-between">
                     <a href="https://tofuture.herokuapp.com"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
                     <a href="https://github.com/billcookie/tofuture"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-code"></i> Code</a>
@@ -84,12 +84,12 @@ export default function Mobile() {
 
 
 
-        <div class="splitter"></div>
+        <div class="splitter opacity-30"></div>
 
         <div data-aos="fade-right" data-aos-duration="2000">
           <div class="flex flex-wrap  mt-5">
             <div class="w-full md:w-1/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
-              <img src="./meme_screenshot.png" class=" max-w-full h-auto site-image" id="mobile-img" alt="image of jedi master class site" />
+              <img src="./meme_screenshot.png" class=" max-w-full h-auto site-image" id="mobile-img" alt="image of StarWars Meme" />
               <div className="flex justify-between">
                     <a href="http://billcook.me/react-starwars-meme-machine/"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
                     <a href="https://github.com/billcookie/react-starwars-meme-machine"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-code"></i> Code</a>
@@ -119,7 +119,7 @@ export default function Mobile() {
         </div>
 
 
-        <div class="splitter"></div>
+        <div class="splitter opacity-30"></div>
 
         <div data-aos="fade-left" data-aos-duration="2000">
           <div class="flex flex-wrap  mt-5">
@@ -156,12 +156,12 @@ export default function Mobile() {
 
 
 
-        <div class="splitter"></div>
+        <div class="splitter opacity-30"></div>
 
         <div data-aos="fade-right" data-aos-duration="2000">
           <div class="flex flex-wrap  mt-5">
             <div class="w-full md:w-1/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
-              <img src="./slackclone_screenshot.png" class=" max-w-full h-auto site-image" id="vinyl-img" alt="Tokyo Vinyl " />
+              <img src="./slackclone_screenshot.png" class=" max-w-full h-auto site-image" id="vinyl-img" alt="Slack clone image" />
               <div className="flex justify-between">
                     <a href="http://billcook.me/react-star-wars-slack-clone"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
                     <a href="https://github.com/billcookie/react-star-wars-slack-clone"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-code"></i> Code</a>
