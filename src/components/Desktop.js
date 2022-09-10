@@ -57,7 +57,7 @@ export default function Mobile() {
               <div class="site-text">
                 <h2 class="title-shadow text-4xl mb-2">toFuture</h2>
                 <h4 class="title-shadow text-1.5xl font-bold mb-2">Role: Backend Developer</h4>
-                <p>An app built in 10 days that allows users to find sustainble investment through a community platform.</p>
+                <p>toFuture allows users to discover sustainable investment opportunities and share their discoveries with other users through their board. The app uses a ESG scoring API to find sustainble companies listed on the stock market. It also recommends smaller companies that are not listed on the stock market, but that are associated with other ethical standards.</p>
               </div>
               <div class="w-full md:w-2/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4 mt-4">
                 <div class="dev-icons grid gap-2 grid-cols-4 text-5xl">
