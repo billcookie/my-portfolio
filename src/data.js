@@ -10,6 +10,15 @@ export const projects = [
     link: "https://tokyo-vinyls.herokuapp.com",
   },
   {
+    title: "Bill's Guitars",
+    subtitle: "MERN Stack",
+    description:
+    "A headless shopify guitar store that was built with Next.js, Typescript, GraphQL, Tailwind and hosted on Vercel. It allows users to browse a selection of Fender guitars. In this project, I learnt the fundamentals of Typescript and pushed my knowledge of react and Next.js to create a fully functioning shopify app.",
+    image: "./Bills-guitars-screenshot.png",
+    repos: "https://github.com/billcookie/shopify-guitar",
+    link: "https://shopify-guitar.vercel.app/",
+  },
+  {
     title: "toFuture",
     subtitle: "MERN Stack",
     description:
@@ -18,6 +27,7 @@ export const projects = [
     repos: "https://github.com/billcookie/tofuture",
     link: "https://tofuture.herokuapp.com",
   },
+
   {
     title: "Star Wars Meme Machine",
     subtitle: "React Hooks",

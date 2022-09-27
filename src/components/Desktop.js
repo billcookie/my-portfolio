@@ -47,13 +47,53 @@ export default function Mobile() {
           </div>
         </div>
 
-
-
         <div class="splitter opacity-30"></div>
 
         <div data-aos="fade-left" data-aos-duration="2000">
           <div class="flex flex-wrap  mt-5">
             <div class="w-full md:w-2/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
+              <div class="site-text">
+                <h2 class="title-shadow text-4xl mb-2">Bill's Guitars</h2>
+                <h4 class="title-shadow text-1.5xl font-bold mb-2">Personal Project</h4>
+                <p>A headless shopify guitar store that was built with Next.js, Typescript, GraphQL, Tailwind and hosted on Vercel. It allows users to browse a selection of Fender guitars. In this project, I learnt the fundamentals of Typescript and pushed my knowledge of react and Next.js to create a fully functioning shopify app. </p>
+              </div>
+              <div class="w-full md:w-2/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4 mt-4">
+                <div class="dev-icons grid gap-2 grid-cols-4 text-5xl">
+                  <i class="devicon-typescript-plain"></i>
+                  <i class="devicon-nextjs-original"></i>
+                  <i class="devicon-javascript-plain"></i>
+                  <i class="devicon-html5-plain"></i>
+                  <i class="devicon-tailwindcss-original-wordmark"></i>
+                  <i class="devicon-graphql-plain-wordmark"></i>
+                  <i class="devicon-github-original-wordmark"></i>
+                  <i class="devicon-git-plain-wordmark"></i>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-1/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
+              <img src="./Bills-guitars-screenshot.png" class=" max-w-full h-auto site-image" alt="image of tofuture home site" />
+              <div className="flex justify-between">
+                    <a href="https://shopify-guitar.vercel.app/"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
+                    <a href="https://github.com/billcookie/shopify-guitar"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-code"></i> Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="splitter opacity-30"></div>
+
+
+        <div data-aos="fade-right" data-aos-duration="2000">
+          <div class="flex flex-wrap  mt-5">
+            <div class="w-full md:w-1/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
+              <img src="./tofuture_screenshot.png" class=" max-w-full h-auto site-image" id="mobile-img" alt="image of StarWars Meme" />
+              <div className="flex justify-between">
+                    <a href="https://tofuture.herokuapp.com"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
+                    <a href="https://github.com/billcookie/tofuture"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-code"></i> Code</a>
+              </div>
+            </div>
+
+            <div class="w-full md:w-2/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
+
               <div class="site-text">
                 <h2 class="title-shadow text-4xl mb-2">toFuture</h2>
                 <h4 class="title-shadow text-1.5xl font-bold mb-2">Role: Backend Developer</h4>
@@ -72,51 +112,11 @@ export default function Mobile() {
                 </div>
               </div>
             </div>
-            <div class="w-full md:w-1/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
-              <img src="./tofuture_screenshot.png" class=" max-w-full h-auto site-image" alt="image of tofuture home site" />
-              <div className="flex justify-between">
-                    <a href="https://tofuture.herokuapp.com"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
-                    <a href="https://github.com/billcookie/tofuture"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-code"></i> Code</a>
-              </div>
-            </div>
           </div>
         </div>
 
 
 
-        <div class="splitter opacity-30"></div>
-
-        <div data-aos="fade-right" data-aos-duration="2000">
-          <div class="flex flex-wrap  mt-5">
-            <div class="w-full md:w-1/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
-              <img src="./meme_screenshot.png" class=" max-w-full h-auto site-image" id="mobile-img" alt="image of StarWars Meme" />
-              <div className="flex justify-between">
-                    <a href="http://billcook.me/react-starwars-meme-machine/"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
-                    <a href="https://github.com/billcookie/react-starwars-meme-machine"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-code"></i> Code</a>
-              </div>
-            </div>
-
-            <div class="w-full md:w-2/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
-
-              <div class="site-text">
-                <h2 class="title-shadow text-4xl mb-2">Star War Meme Machine</h2>
-                <h4 class="title-shadow text-1.5xl font-bold mb-2">Personal Project</h4>
-                <p>The Star Wars Meme Machine is an app that allows users to search for gifs with anyword and it will retrieve a Star Wars related gift. In this project I learnt alot about the fundamentals of React and how to use components, props and hooks. Made with help from LeWagon.</p>
-              </div>
-              <div class="w-full md:w-2/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4 mt-4">
-                <div class="dev-icons grid gap-2 grid-cols-4 text-5xl">
-                  <i class="devicon-react-original-wordmark"></i>
-                  <i class="devicon-javascript-plain"></i>
-                  <i class="devicon-html5-plain"></i> <i class="devicon-sass-original"></i>
-                  <i class="devicon-github-original-wordmark"></i>
-                  <i class="devicon-git-plain-wordmark"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
 
 
         <div class="splitter opacity-30"></div>
@@ -125,18 +125,15 @@ export default function Mobile() {
           <div class="flex flex-wrap  mt-5">
             <div class="w-full md:w-2/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
               <div class="site-text">
-                <h2 class="title-shadow text-4xl mb-2">Super Battle Knight</h2>
+                <h2 class="title-shadow text-4xl mb-2">Star War Meme Machine</h2>
                 <h4 class="title-shadow text-1.5xl font-bold mb-2">Personal Project</h4>
-                <p>Super Battle Knight allows users to add "characters" to "battles". It was a personal project to practice N:N relationships and how to integrate cloudinary into web application as well as geocoding.</p>
+                <p>The Star Wars Meme Machine is an app that allows users to search for gifs with anyword and it will retrieve a Star Wars related gift. In this project I learnt alot about the fundamentals of React and how to use components, props and hooks. Made with help from LeWagon.</p>
               </div>
               <div class="w-full md:w-2/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4 mt-4">
                 <div class="dev-icons grid gap-2 grid-cols-4 text-5xl">
-                  <i class="devicon-rails-plain-wordmark"></i>
-                  <i class="devicon-ruby-plain-wordmark"></i>
+                <i class="devicon-react-original-wordmark"></i>
                   <i class="devicon-javascript-plain"></i>
                   <i class="devicon-html5-plain"></i> <i class="devicon-sass-original"></i>
-                  <i class="devicon-postgresql-plain-wordmark"></i>
-                  <i class="devicon-heroku-original-wordmark"></i>
                   <i class="devicon-github-original-wordmark"></i>
                   <i class="devicon-git-plain-wordmark"></i>
                 </div>
@@ -144,27 +141,24 @@ export default function Mobile() {
             </div>
 
             <div class="w-full md:w-1/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
-              <img src="superbattleknight_screenshot.png" class=" max-w-full h-auto site-image" alt="image of super battle knight screenshot" />
+              <img src="./meme_screenshot.png" class=" max-w-full h-auto site-image" alt="image of super battle knight screenshot" />
               <div className="flex justify-between">
-                    <a href="https://super-battle-knight.herokuapp.com"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
-                    <a href="https://github.com/billcookie/super-battle-knight"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-code"></i> Code</a>
+              <a href="http://billcook.me/react-starwars-meme-machine/"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
+                    <a href="https://github.com/billcookie/react-starwars-meme-machine"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-code"></i> Code</a>
               </div>
             </div>
           </div>
-
         </div>
-
-
 
         <div class="splitter opacity-30"></div>
 
         <div data-aos="fade-right" data-aos-duration="2000">
           <div class="flex flex-wrap  mt-5">
             <div class="w-full md:w-1/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
-              <img src="./slackclone_screenshot.png" class=" max-w-full h-auto site-image" id="vinyl-img" alt="Slack clone image" />
+              <img src="./superbattleknight_screenshot.png" class=" max-w-full h-auto site-image" id="vinyl-img" alt="Slack clone image" />
               <div className="flex justify-between">
-                    <a href="http://billcook.me/react-star-wars-slack-clone"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
-                    <a href="https://github.com/billcookie/react-star-wars-slack-clone"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-code"></i> Code</a>
+              <a href="https://super-battle-knight.herokuapp.com"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
+              <a href="https://github.com/billcookie/super-battle-knight"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-code"></i> Code</a>
               </div>
             </div>
 
@@ -172,19 +166,55 @@ export default function Mobile() {
             <div class="w-full md:w-2/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
 
               <div class="site-text">
+                <h2 class="title-shadow text-4xl mb-2">Super Battle Knight</h2>
+                <h4 class="title-shadow text-1.5xl font-bold mb-2">Personal Project</h4>
+                <p>Super Battle Knight allows users to add "characters" to "battles". It was a personal project to practice N:N relationships and how to integrate cloudinary into web application as well as geocoding.</p>
+              </div>
+              <div class="w-full md:w-2/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4 mt-4">
+                <div class="dev-icons grid gap-2 grid-cols-4 text-5xl">
+                <i class="devicon-rails-plain-wordmark"></i>
+                  <i class="devicon-ruby-plain-wordmark"></i>
+                  <i class="devicon-javascript-plain"></i>
+                  <i class="devicon-html5-plain"></i> <i class="devicon-sass-original"></i>
+                  <i class="devicon-postgresql-plain-wordmark"></i>
+                  <i class="devicon-heroku-original-wordmark"></i>
+                  <i class="devicon-github-original-wordmark"></i>
+                  <i class="devicon-git-plain-wordmark"></i>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="splitter opacity-30"></div>
+
+        <div data-aos="fade-left" data-aos-duration="2000">
+          <div class="flex flex-wrap  mt-5">
+            <div class="w-full md:w-2/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
+              <div class="site-text">
                 <h2 class="title-shadow text-4xl mb-2">Star Wars Slack Clone</h2>
                 <h4 class="title-shadow text-1.5xl font-bold mb-2">Personal Project</h4>
                 <p>The Star Wars slack clone was a I challenge I gave myself to practice React components and CSS styling by using both CSS and Bootstrap.</p>
               </div>
               <div class="w-full md:w-2/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4 mt-4">
                 <div class="dev-icons grid gap-2 grid-cols-4 text-5xl">
-                  <i class="devicon-react-original-wordmark"></i>
+                <i class="devicon-react-original-wordmark"></i>
                   <i class="devicon-javascript-plain"></i>
                   <i class="devicon-html5-plain"></i> <i class="devicon-sass-original"></i>
                   <i class="devicon-github-original-wordmark"></i>
                   <i class="devicon-git-plain-wordmark"></i>
-
                 </div>
+              </div>
+            </div>
+
+            <div class="w-full md:w-1/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
+              <img src="./slackclone_screenshot.png" class=" max-w-full h-auto site-image" alt="image of super battle knight screenshot" />
+              <div className="flex justify-between">
+              <a href="http://billcook.me/react-star-wars-slack-clone"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
+              <a href="https://github.com/billcookie/react-star-wars-slack-clone"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-code"></i> Code</a>
               </div>
             </div>
           </div>
