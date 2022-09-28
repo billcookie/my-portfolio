@@ -30,8 +30,6 @@ export default function Mobile() {
                     <a href={project.link} className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
                     <a href={project.repos} className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-code"></i> Code</a>
                   </div>
-
-
                 </div>
               </div>
             </div>
