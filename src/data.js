@@ -21,7 +21,7 @@ export const projects = [
     image: "./Bills-guitars-screenshot.png",
     devicon: ["devicon-typescript-plain", "devicon-nextjs-original", "devicon-javascript-plain", "devicon-html5-plain", "devicon-tailwindcss-original-wordmark", "devicon-graphql-plain-wordmark", "devicon-github-original-wordmark", "devicon-git-plain-wordmark"],
     repos: "https://github.com/billcookie/shopify-guitar",
-    link: "https://shopify-guitar.vercel.app/",
+    link: "https://bills-guitars.vercel.app/",
   },
   {
     title: "toFuture",
