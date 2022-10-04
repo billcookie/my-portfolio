@@ -203,7 +203,8 @@ export default function Mobile() {
                 <div class="dev-icons grid gap-2 grid-cols-4 text-5xl">
                 <i class="devicon-react-original-wordmark"></i>
                   <i class="devicon-javascript-plain"></i>
-                  <i class="devicon-html5-plain"></i> <i class="devicon-sass-original"></i>
+                  <i class="devicon-html5-plain"></i>
+                  <i class="devicon-css3-plain"></i>
                   <i class="devicon-github-original-wordmark"></i>
                   <i class="devicon-git-plain-wordmark"></i>
                 </div>
