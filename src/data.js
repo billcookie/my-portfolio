@@ -23,6 +23,18 @@ export const projects = [
     repos: "https://github.com/billcookie/shopify-guitar",
     link: "https://bills-guitars.vercel.app/",
   },
+
+  {
+    title: "Post It!",
+    role: "Personal Project",
+    description:
+    "Post It! allows users to post about their day, hobbies, or whatever they want. Users can also like each others posts as well. This social media app built with Mongo DB, Express, React and Node.js with Google Authentication. It is my first time using the MERN stack and it taught me alot about how to connect the client, server and database with one another. I plan to continue working on this app by adding a search function, pagination and allowing users to comment on each others posts.",
+    image: "./post-it-screenshot.png",
+    devicon: ["devicon-mongodb-plain-wordmark", "devicon-express-original", "devicon-react-original-wordmark", "devicon-nodejs-plain-wordmark", "devicon-javascript-plain", "devicon-html5-plain", "devicon-css3-plain", "devicon-materialui-plain", "devicon-github-original-wordmark", "devicon-git-plain-wordmark"],
+    repos: "https://github.com/billcookie/mern-social-media",
+    link: "https://post-it-social.vercel.app/",
+  },
+
   {
     title: "toFuture",
     role: "Personal Project",
@@ -44,15 +56,7 @@ export const projects = [
     link: "http://billcook.me/react-starwars-meme-machine/",
   },
 
-  {
-    title: "Super Battle Knight",
-    role: "Personal Project",
-    description: "Super Battle Knight allows users to add 'characters' to 'battles'. It was a personal project to practice N:N relationships and how to integrate cloudinary into web application as well as geocoding.",
-    devicon: ["devicon-ruby-plain-wordmark", "devicon-javascript-plain", "devicon-html5-plain", "devicon-sass-original", "devicon-postgresql-plain-wordmark", "devicon-heroku-original-wordmark", "devicon-github-original-wordmark", "devicon-git-plain-wordmark"],
-    image: "./superbattleknight_screenshot.png",
-    repos: "https://github.com/billcookie/super-battle-knight",
-    link: "https://super-battle-knight.herokuapp.com",
-  },
+
   {
     title: "Slack Clone",
     role: "Personal Project",
@@ -64,3 +68,16 @@ export const projects = [
   },
 
 ];
+
+
+
+// old projects
+// {
+//   title: "Super Battle Knight",
+//   role: "Personal Project",
+//   description: "Super Battle Knight allows users to add 'characters' to 'battles'. It was a personal project to practice N:N relationships and how to integrate cloudinary into web application as well as geocoding.",
+//   devicon: ["devicon-ruby-plain-wordmark", "devicon-javascript-plain", "devicon-html5-plain", "devicon-sass-original", "devicon-postgresql-plain-wordmark", "devicon-heroku-original-wordmark", "devicon-github-original-wordmark", "devicon-git-plain-wordmark"],
+//   image: "./superbattleknight_screenshot.png",
+//   repos: "https://github.com/billcookie/super-battle-knight",
+//   link: "https://super-battle-knight.herokuapp.com",
+// },
