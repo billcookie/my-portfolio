@@ -19,7 +19,7 @@ export default function Mobile() {
             <div class="w-full md:w-1/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
               <img src="./tokyovinyl_screenshot.png" class=" max-w-full h-auto site-image" id="vinyl-img" alt="Tokyo Vinyl" />
               <div className="flex justify-between">
-                    <a href="https://tokyo-vinyls.herokuapp.com"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
+                    <a href="https://tokyo-vinyls.fly.dev/"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
                     <a href="https://github.com/billcookie/tokyo-vinyls"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-code"></i> Code</a>
               </div>
             </div>
@@ -143,7 +143,7 @@ export default function Mobile() {
             <div class="w-full md:w-1/3 pr-4 pl-4 lg:w-1/2 pr-4 pl-4">
               <img src="/tofuture_screenshot.png" class=" max-w-full h-auto site-image" alt="image of super battle knight screenshot" />
               <div className="flex justify-between">
-                <a href="https://tofuture.herokuapp.com"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
+                <a href="https://tofuture.fly.dev/"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-globe"></i> Site</a>
                 <a href="https://github.com/billcookie/tofuture"className="mt-1 bg-blue-500 w-32 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded-full"><i class="fa-solid fa-code"></i> Code</a>
               </div>
             </div>

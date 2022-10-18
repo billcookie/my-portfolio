@@ -11,7 +11,7 @@ export const projects = [
     image: "./tokyovinyl_screenshot.png",
     devicon: ["devicon-rails-plain-wordmark", "devicon-ruby-plain-wordmark", "devicon-javascript-plain", "devicon-html5-plain", "devicon-sass-original", "devicon-postgresql-plain-wordmark", "devicon-heroku-original-wordmark", "devicon-github-original-wordmark", "devicon-git-plain-wordmark"],
     repos: "https://github.com/billcookie/tokyo-vinyls",
-    link: "https://tokyo-vinyls.herokuapp.com",
+    link: "https://tokyo-vinyls.fly.dev/",
   },
   {
     title: "Bill's Guitars",
@@ -43,7 +43,7 @@ export const projects = [
       devicon: ["devicon-ruby-plain-wordmark", "devicon-javascript-plain", "devicon-html5-plain", "devicon-sass-original", "devicon-postgresql-plain-wordmark", "devicon-heroku-original-wordmark", "devicon-github-original-wordmark", "devicon-git-plain-wordmark"],
     image: "./tofuture_screenshot.png",
     repos: "https://github.com/billcookie/tofuture",
-    link: "https://tofuture.herokuapp.com",
+    link: "https://tofuture.fly.dev/",
   },
 
   {
